@@ -1,24 +1,6 @@
-Props Destructuring 1:
+Props Destructuring:
 
-const Book = (props) => {
-  const { img, title, author } = props; //props destructuring
-  return (
-    <article className="book">
-      <img src={img} alt="book"></img>
-      <h1>{title}</h1>
-      <h4>{author}</h4>
-    </article>
-  );
-};
+![alt text](https://user-images.githubusercontent.com/13487972/96346769-3344ae80-10bb-11eb-8c88-0690048cb47d.png)
 
-Props Destructuring 2:
+![alt text](https://user-images.githubusercontent.com/13487972/96346776-435c8e00-10bb-11eb-971a-f6dfdfff4f70.png)
 
-const Book = ({ img, title, author }) => {
-  return (
-    <article className="book">
-      <img src={img} alt="book"></img>
-      <h1>{title}</h1>
-      <h4>{author}</h4>
-    </article>
-  );
-};
